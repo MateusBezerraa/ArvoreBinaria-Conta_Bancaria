@@ -81,12 +81,3 @@ Utilizar múltiplos arquivos _.c_ e _.h_ para separar a implementação e a resp
 Construir funções para realizar  operações repetitivas, ou seja, modularizar adequadamente seu código.
 
 Escrever um arquivo **Makefile** que será responsável por gerenciar a execução do projeto dentro da plataforma _run.codes_.
-
-
-
-### Observações da avaliação
-A avaliação do seu programa será feita além do resultado da plataforma *run.codes*. Portanto, ter um bom resultado com os casos de teste, não será suficiente para garantir a **nota máxima** e nem a **aprovação do exercício**.
-
-Caso seu projeto não satisfaça os pontos exigidos nos **objetivos** e explicitados nas **observações de implementação**, sua nota poderá ser **reduzida** ou ser **desconsiderada**.
-
-Cópias de código entre alunos, acusadas pela plataforma, resultarão imediatamente em **zero** aos dois ou mais alunos envolvidos.
