@@ -1,13 +1,21 @@
 #ifndef ARVOREBINARIA_H
 #define ARVOREBINARIA_H
 
+#include <stdlib.h>
+#include <stdio.h>
 #include "cliente.h"
 
-#define FILHO_ESQ 0
-#define FILHO_DIR 1
+typedef struct node_st
+{
+    CLIENTE *cliente;
+    struct node_st *direita;
+    struct node_st *esquerda;
+}NODE;
 
-typedef struct node_st NODE;
-typedef struct arvore_binaria ARVORE;
+typedef struct arvore_binaria
+{
+    NODE *raiz;
+}ARVORE;
 
 ARVORE* arvore_criar();
 void arvore_pre_ordem(ARVORE* arvore);
