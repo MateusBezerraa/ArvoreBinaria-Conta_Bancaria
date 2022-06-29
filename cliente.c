@@ -37,10 +37,10 @@ CLIENTE* cliente_ler_std_in()
     
     char idade[3], saldo[20];
 
-    strcpy(cliente.cpf, strtok(input, ","));
-    strcpy(cliente.nome, strtok(NULL, ","));
-    strcpy(idade, strtok(NULL, ","));
-    strcpy(saldo, strtok(NULL, ","));
+    strcpy(cliente.cpf, strtok(input, ";"));
+    strcpy(cliente.nome, strtok(NULL, ";"));
+    strcpy(idade, strtok(NULL, ";"));
+    strcpy(saldo, strtok(NULL, ";"));
 
     cliente.idade = atoi(idade);
     cliente.saldo = atof(saldo);
